@@ -1,11 +1,8 @@
 import * as fs from "fs";
 
 const input = fs.readFileSync(0, "utf8").trim();
-const [s] = input.split(/\s+/);
+const s = input.split(/\s+/);
 
-let ans: string = "";
+let ans: string = s[0].split("").join("o");
 
-for(const char of s) {
-  ans += char + "o";
-}
-console.log(ans.slice(0, -1));
+console.log(ans);
