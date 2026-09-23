@@ -2,22 +2,13 @@
   "name": "atcoder-ts",
   "version": "1.0.0",
   "description": "AtCoderをTypeScriptで解いたコードたち",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "private": true,
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taku0622/atcoder-ts.git"
+    "url": "git+https://github.com/taku-ts/atcoder-ts.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/taku0622/atcoder-ts/issues"
-  },
-  "homepage": "https://github.com/taku0622/atcoder-ts#readme",
+  "license": "UNLICENSED",
   "devDependencies": {
     "@types/node": "^25.6.0",
     "tsx": "^4.21.0",
